@@ -6,7 +6,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {array.unshif
 
 function addElementToEndOfArray(array, element) {return [...array, element]} 
 
-function destructivelyAddElementToEndOfArray(array, element) {return [array.push(element)]} FIX
+function destructivelyAddElementToEndOfArray(array, element) {array.push(element) return array} FIX
 
 function accessElementInArray(array, element) {return console.log(array[index])} FIX
 
