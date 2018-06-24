@@ -8,10 +8,10 @@ function addElementToEndOfArray(array, element) {return [...array, element]}
 
 function destructivelyAddElementToEndOfArray(array, element) {array.push(element); return array}
 
-function accessElementInArray(array, element) {return array[index]} 
+function accessElementInArray(array, element) {array[index]} 
 
 function destructivelyRemoveElementFromBeginningOfArray(array, element) {array.shift(); return array} 
 
 function destructivelyRemoveElementFromEndOfArray(array, element) {array.pop(); return array} 
 
-function removeElementFromBeginningOfArray(array) {return array.slice(0, array.length - 1)} 
+function removeElementFromBeginningOfArray(array) {return array.slice(0, array.length - 1)} fix
