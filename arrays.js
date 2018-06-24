@@ -12,6 +12,6 @@ function accessElementInArray(array, element) {return array[index]}
 
 function destructivelyRemoveElementFromBeginningOfArray(array, element) {return array.slice( - 1)} FIX
 
-function destructivelyRemoveElementFromEndOfArray(array, element) {array.pop(); } FIX
+function destructivelyRemoveElementFromEndOfArray(array, element) {array.pop(); return array} 
 
 function removeElementFromBeginningOfArray(array) {return array.slice(0, array.length - 1)} 
