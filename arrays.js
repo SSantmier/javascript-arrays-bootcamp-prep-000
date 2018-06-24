@@ -12,6 +12,6 @@ function accessElementInArray(array, element) {return console.log(array[index])}
 
 function destructivelyRemoveElementFromBeginningOfArray(array, element) {return array.slice( - 1)} FIX
 
-function destructivelyRemoveElementFromEndOfArray(array, element) {return array.slice(0, array.lenght - 1)} FIX
+function destructivelyRemoveElementFromEndOfArray(array, element) {return array.slice(0, array.length - 1)} FIX
 
 function removeElementFromBeginningOfArray(array) {return array.shift()} FIX
